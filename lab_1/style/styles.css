@@ -3,3 +3,45 @@
     margin-bottom: 10px;
     font-size: 1.2em;
 }
+
+img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+}
+
+.content {
+    /*max-width: 800px;*/
+    /*margin: 50px auto;*/
+    /*padding: 20px;*/
+    /*background-color: #ffffff;*/
+    /*box-shadow: 0 0 10px rgba(0,0,0,0.1);*/
+    /*text-align: center;*/
+}
+
+.shapes {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid blue;
+}
