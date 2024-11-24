@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Arial";
+    font-family: "Arial", serif;
     font-size: 18px;
 }
 
@@ -46,7 +46,7 @@ ul {
     background-color: #ec2335;
     color: white;
     border: none;
-    font-family: "Calibri";
+    font-family: "Calibri", serif;
 }
 
 .banner {
